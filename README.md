@@ -2,8 +2,7 @@
 
 ## INFORMATION:
 
-1. Develop folder is the main folder of the project which contains
-   the [assets] folder and the index.html.
+1. Develop folder is folder contains the [assets] folder.
 2. [assets] folder contains the [css] folder, the [images] folder and the [screenshots] folder.
 3. [css] folder contains the style.css for the index.html.
 4. [images] folder contains the images for the index.html.
@@ -21,7 +20,7 @@ developer.
 
 ## Website
 
-https://ting-hu.github.io/UCONN-Projects/Challenge_One
+https://ting-hu.github.io/Challenge_One/
 
 ## Contribution
 
