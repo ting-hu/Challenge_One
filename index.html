@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Horiseon</title>
+    <link rel="stylesheet" href="./Develop/assets/css/style.css" />
+  </head>
+
+  <!--Changed the big <div> to be <body>-->
+  <body>
+    <!-- navigation -->
+    <!-- Changed the <div class="header"> to be <header> directly and 
+    made it have <nav> element instead of the sub <div>-->
+    <header>
+      <h1>
+        <a href="/">Hori<span class="seo">seo</span>n </a>
+      </h1>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#search-engine-optimization">Search Engine Optimization</a>
+          </li>
+          <li>
+            <a href="#online-reputation-management"
+              >Online Reputation Management</a
+            >
+          </li>
+          <li>
+            <a href="#social-media-marketing">Social Media Marketing</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- hero/jumbotron -->
+    <!-- <div> would be good here as well if the website keeps
+      the way it is and no further development.-->
+    <section class="hero"></section>
+
+    <!--  content  -->
+    <!-- Changed <div> to be <section> for the content class and also added id
+      names content.-->
+    <section class="content" id="content">
+      <!-- Added the id which has the same name as class to provide access for the 
+      <header> part.-->
+      <div class="search-engine-optimization" id="search-engine-optimization">
+        <img
+          src="./Develop/assets/images/search-engine-optimization.jpg"
+          alt="a notebook on a table of a SEO word cloud using examples, 
+            like content, headings, etc."
+          class="float-left"
+        />
+        <h2 class="section-title primary-border">Search Engine Optimization</h2>
+        <p>
+          The dominance of mobile internet use means that users are searching
+          for the right business as they travel, shop, or sit on their couch at
+          home. Search Engine Optimization (SEO) allows you to increase your
+          visibility and find the right customers for your business.
+        </p>
+      </div>
+
+      <div
+        id="online-reputation-management"
+        class="online-reputation-management"
+      >
+        <img
+          src="./Develop/assets/images/online-reputation-management.jpg"
+          alt="a man with a smartphone and laptop that reads reputation in capital letters with graphs and charts"
+          class="float-right"
+        />
+        <h2 class="section-title primary-border">
+          Online Reputation Management
+        </h2>
+        <p>
+          The web is full of opinions, and some of these can be negative. Social
+          media allows anyone with an internet connection to say whatever they
+          want about your business. Online Reputation Management gives you the
+          control over what potential customers see when they search for your
+          business.
+        </p>
+      </div>
+
+      <div id="social-media-marketing" class="social-media-marketing">
+        <img
+          src="./Develop/assets/images/social-media-marketing.jpg"
+          alt="a group of people are sitting at a table with different representations of social media platforms"
+          class="float-left"
+        />
+        <h2 class="section-title primary-border">Social Media Marketing</h2>
+        <p>
+          Social media continues to have a sizable influence on buying habits.
+          Social media marketing helps you determine which platforms are suited
+          to your brand, using analytics to find the right markets and increase
+          your lead generation.
+        </p>
+      </div>
+    </section>
+
+    <!--  benefits -->
+    <!-- Changed <div> to be <section> for the content class and also added id
+      names benefits. Used [alt=""] becuase the images in this section only used
+      for decoration purpose. -->
+    <section class="benefits" id="benefits">
+      <div class="benefit-lead" id="benefit-lead">
+        <h3 class="section-title secondary-border">Lead Generation</h3>
+        <img src="./Develop/assets/images/lead-generation.png" alt="" />
+        <p>
+          Inbound strategies for lead generation require less work for your
+          business, bringing customers directly to your website.
+        </p>
+      </div>
+
+      <div class="benefit-brand" id="benefit-brand">
+        <h3 class="section-title secondary-border">Brand Awareness</h3>
+        <img src="./Develop/assets/images/brand-awareness.png" alt="" />
+        <p>
+          Users find your business through paid and organic searches, increasing
+          the search ranking and visibility for your business.
+        </p>
+      </div>
+
+      <div class="benefit-cost" id="benefit-cost">
+        <h3 class="section-title secondary-border">Cost Management</h3>
+        <img src="./Develop/assets/images/cost-management.png" alt="" />
+        <p>
+          As the search ranking for your business increases, your advertising
+          costs decrease, and you no longer need to advertise your page.
+        </p>
+      </div>
+    </section>
+
+    <!--  footer  -->
+    <!-- Changed <div> to be <footer>-->
+    <footer>
+      <h2>Made with ❤️️ by Horiseon</h2>
+      <div>&copy; 2019 Horiseon Social Solution Services, Inc.</div>
+    </footer>
+  </body>
+</html>
