@@ -6,7 +6,8 @@
 2. [assets] folder contains the [css] folder, the [images] folder and the [screenshots] folder.
 3. [css] folder contains the style.css for the index.html.
 4. [images] folder contains the images for the index.html.
-5. [screenshots] folder contains the screenshots of the refactored code for submission.
+5. [screenshots] folder contains the screenshots of the refactored code and the sceenshots of the
+   website for submission.
 
 ## Purpose
 
@@ -28,6 +29,10 @@ Refactored by Xueting Hu
 
 ## Screenshots
 
+![page-1](./Develop/assets/screenshots/page_1.png)
+![page-2](./Develop/assets/screenshots/page_2.png)
+![page-3](./Develop/assets/screenshots/page_3.png)
+![page-4](./Develop/assets/screenshots/page_4.png)
 ![Screenshot_1](./Develop/assets/screenshots/screenshot_1.png)
 ![Screenshot_2](./Develop/assets/screenshots/screenshot_2.png)
 ![Screenshot_3](./Develop/assets/screenshots/screenshot_3.png)
